@@ -98,9 +98,9 @@ set_global_assignment -name VHDL_FILE rtl/i8244/i8244_charset_rom-c.vhd
 set_global_assignment -name VHDL_FILE rtl/i8244/i8244_charset_rom.vhd
 set_global_assignment -name VHDL_FILE rtl/vp_tb_pack-p.vhd
 set_global_assignment -name VHDL_FILE rtl/vp_glue.vhd
-set_global_assignment -name VERILOG_FILE sys/arcade_video.v -library emu
 set_global_assignment -name VHDL_FILE rtl/vp_console_comp_pack-p.vhd
 set_global_assignment -name VHDL_FILE rtl/vp_console.vhd
+set_global_assignment -name VERILOG_FILE sys/arcade_video.v -library emu
 set_global_assignment -name CDF_FILE jtag.cdf
 set_global_assignment -name QIP_FILE sys/sys.qip
 
