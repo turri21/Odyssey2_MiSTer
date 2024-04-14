@@ -59,25 +59,6 @@ set_global_assignment -name SEED 1
 
 source sys/sys.tcl
 source sys/sys_analog.tcl
-set_location_assignment PIN_AF28 -to SDIO_DAT[3] -disable
-set_location_assignment PIN_AF27 -to SDIO_CMD -disable
-set_location_assignment PIN_AH26 -to SDIO_CLK -disable
-set_location_assignment PIN_AH18 -to VGA_R[3] -disable
-set_location_assignment PIN_AH19 -to VGA_R[4] -disable
-set_location_assignment PIN_AG18 -to VGA_G[3] -disable
-set_location_assignment PIN_AG19 -to VGA_G[4] -disable
-set_location_assignment PIN_AG20 -to VGA_G[5] -disable
-set_location_assignment PIN_AG21 -to VGA_B[0] -disable
-set_location_assignment PIN_AH23 -to VGA_B[4] -disable
-set_location_assignment PIN_AH21 -to VGA_B[5] -disable
-set_location_assignment PIN_AH22 -to VGA_HS -disable
-set_location_assignment PIN_AG24 -to VGA_VS -disable
-set_location_assignment PIN_AH27 -to VGA_EN -disable
-set_location_assignment PIN_AG26 -to AUDIO_SPDIF -disable
-set_location_assignment PIN_AG28 -to LED_POWER -disable
-set_location_assignment PIN_AH24 -to BTN_USER -disable
-set_location_assignment PIN_AG25 -to BTN_OSD -disable
-set_location_assignment PIN_AG23 -to BTN_RESET -disable
 source files.qip
 set_global_assignment -name VERILOG_FILE sys/arcade_video.v -library emu
 set_global_assignment -name QIP_FILE rtl/sp0256/pll_thevoice.qip
